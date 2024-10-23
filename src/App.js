@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { cnotify } from './config/setup-cnotify.js';
+
+function requestPermissions() {
+  cnotify.requestPermissions().then((permission) => {
+    if (permission === 'granted') {
+      console.log('Notification permission granted ✅');
+    } else {
+      console.log('Notification permission denied ❌');
+    }
+  });
+}
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +29,9 @@ function App() {
         >
           Learn React
         </a>
+        <button className="App-link" onClick={requestPermissions}>
+          Request Notification Permission
+        </button>
       </header>
     </div>
   );

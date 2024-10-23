@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# CNotify - React Integration example
+
+This repository provides a simple example of how to integrate **CNotify** into a React application. If you're looking to streamline your notification campaigns without building a backend, this demo will guide you through the process using **CNotify**.
+
+- [Home](https://cnotify.me)
+- [Platform](https://app.cnotify.me)
+- [Docs](https://docs.cnotify.me) (See React section)
+
+## Overview
+
+CNotify is a platform that enables easy scheduling and management of notification campaigns for mobile apps and web applications. This repository demonstrates how to set up and use the CNotify SDK within a React app.
+
+## Features
+
+- Quick setup and integration with CNotify.
+- Example of scheduling notification campaigns directly from a Next.js app.
+- Backend-less integration to streamline your workflow.
+- No coding required for managing future campaigns after initial setup
+
+# React Readme
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
